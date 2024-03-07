@@ -1,0 +1,295 @@
+
+
+html{
+    display: block;
+    scroll-behavior: smooth;
+}
+header{
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #fff;
+    top: 0%;left: 0%;right: 0%;
+    width: 100%;
+    box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+
+}
+table{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0%;
+}
+table td{
+    width: 33.33%;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+}
+.icons a{
+    padding: 0.188rem;
+    border-radius: 50%;
+    
+}
+.icons a:hover{
+    background-color: rgb(237, 190, 201);
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 0%;
+
+}
+.navbar a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.938rem;
+    text-decoration: none;
+    margin-left: 0.625rem;
+    color: black;
+    padding: 5px;
+}
+.navbar a:hover{
+    background-color: rgb(237, 190, 201);
+    border-radius: 10%;
+}
+.logo{
+    margin-left: 5px;
+}
+.front{
+    display: flex;
+    padding: 2rem 9%;
+    align-items: center;
+    background-image: url("Untitled\ design\ \(8\).png");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    top: 30%;
+}
+.writing{
+    max-width: 50rem;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    top: 50%;
+}
+.writing button{
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+
+}
+.writing button:hover{
+    color: #fff;
+    background-color: rgb(237, 190, 201);
+}
+.writing h1{
+    cursor: default;
+    font-size: 5rem;
+    margin: 0.188rem;
+}
+.writing span{
+    cursor: default;
+    font-size: 3rem;
+    margin: 0.188rem;
+    padding: 0.188rem;
+}
+.writing span:hover{
+    color: #fff;
+    background-color: rgb(237, 190, 201);
+}
+.writing p{
+    font-size: 1.5rem;
+}
+.lowerpart{
+    display: block;
+}
+.About{
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 50vh;
+}
+.titles{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutme{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+}
+.aboutme p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+.aboutme img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+.aboutme img:hover{
+    opacity: 0.5;
+}
+.aboutme p span:hover{
+    color: #fff;
+    background-color: rgb(237, 190, 201);
+
+}
+.products{
+    position: relative;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    margin-bottom: 3rem;
+}
+.producttab{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.product{
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 95%;
+    box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin-top: 15px;
+}
+.product img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+}
+.product h3{
+    font-size: 1.5rem;
+    margin: 2px;
+}
+.product p{
+    font-size: 0.9rem;
+    margin: 3px;
+}
+.product span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.infor{
+    display: block;
+    text-align: left;
+    height: 30%;
+    width: 70%;
+    bottom: 20%;
+}
+.review{
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    min-height: 70vh;
+}
+.reviewsec{
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+.reviewsec .checked{
+    color:rgb(237, 190, 201);
+}
+.reviewsec .stars{
+    margin: 1rem;
+}
+.reviewsec input{
+    width: 30%;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+.reviewsec textarea,.contact textarea{
+    width: 35.2rem;
+    font-size: 1rem;
+    padding: 10px;
+}
+.contact input{
+    width: 17rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding-left: 10px; 
+}
+.contact .Email{
+    width: 35.3rem;
+}
+
+footer{
+    margin-top: 3rem;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    background-color: rosybrown;
+    width: 100%;
+    margin: 3rem 0 0 0;
+    left: 0;
+    min-height: 30vh;
+
+}
+.links table{
+    background-color: rosybrown;
+}
+
+.links a,.copyright{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.links td{
+    padding: 1rem;
+}
+.copyright{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+
+
+
+
+
+
